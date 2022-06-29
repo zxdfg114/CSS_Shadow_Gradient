@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(http://wooreeweb.com/img/grid.gif);
+    }
+    div {
+      width: 500px;
+      height: 200px;
+      /* background-color: gold; */
+      background-image: url(http://wooreeweb.com/img/bg-1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .box1 {
+      background-image: linear-gradient(red 20%, transparent);
+    }
+
+    .box2 {
+      background-image: linear-gradient(90deg, transparent, blue 60%);
+    }
+
+    /* background-image 코드 중복으로 사용불가능 */
+  </style>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
+</html>
